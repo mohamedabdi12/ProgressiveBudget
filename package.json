@@ -1,11 +1,12 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add functionality to our existing Budget Tracker application to allow for offline access and functionality.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "npx if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "npx nodemon",
     "lite-server": "lite-server"
   },
   "repository": {
@@ -26,5 +27,6 @@
     "mongodb": "^3.6.2",
     "mongoose": "^5.10.5",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {}
 }
