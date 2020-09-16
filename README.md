@@ -60,4 +60,5 @@ THEN that will be shown on the page, and added to their transaction history when
   <img width="1440" alt="Screenshot 2020-09-14 at 4 27 40 PM" src="https://user-images.githubusercontent.com/63940676/93147918-6c969280-f6a7-11ea-856c-2f98eaa14b1d.png">
 
   * the URL to the Github repository
+  https://mybudgetracker.herokuapp.com
 
